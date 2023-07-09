@@ -1,24 +1,9 @@
-import { Formik, Form, Field, ErrorMessage } from "formik"
-import * as yup from 'yup'
+import React from 'react';
 
-function loginPage(){
-    return (
-        <>
-            <Formik initialValues={{}}>
-            <Form>
-                <div>
-                    <Field name='email' placeholder='Email'>
-
-                    </Field>
-                    <ErrorMessage 
-                    component={span} 
-                    name="email"
-                    >
-                    </ErrorMessage>
-                </div>
-            </Form>
-            </Formik>
-        </>
-    )
+function Loginpage() {
+  return (
+    <div> Loginpage </div>
+  )
 }
-export default loginPage
+
+export default Loginpage;
