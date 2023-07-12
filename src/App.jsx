@@ -1,16 +1,13 @@
 import './App.css';
-import Approutes from './components/header/routes/Routes'
+import Header from './components/header/Header';
 
 
 
 function App() {
-
-
   return (
-    
-    <div>
-      <Approutes/>
-    </div>
+    <>
+      <Header/>
+    </>
   )
 }
 
