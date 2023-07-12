@@ -13,7 +13,7 @@ function Header(){
     
     return (
         <>
-        <header className="bg-neutral-800 py-5  mb-5">
+        <header className="bg-neutral-800 py-5  mb-5 sticky top-0">
             <div className="mx-5 flex flex-row justify-between">
                 <div className="flex flex-row cursor-pointer" onClick={changeName}>
     
