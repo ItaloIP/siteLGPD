@@ -1,24 +1,20 @@
 import './App.css';
 import Header from './components/header/Header';
-
+import Footer from './components/footer/Footer';
 
 
 function App() {
   return (
-    <div>
+    <>
       <Header/>
       <section className='flex flex-col flex-nowrap m-2.5'>
         <h1 className="text-4xl font-bold">The LGPD</h1>  
-        <p className="m-2.5 font-medium text-slate-900">The LGPD (Lei Geral de Proteção de Dados Pessoais, in Portuguese) is a law implanted in Brazil (like a GDPR, or General Data Protection Regulation in EUROPE) created in Jul 2018 with the goal of protecting Brazilians' data. Under the LGPD, the processing of personal data can be performed by two processing agents, the Controller and the Operator. In addition to them, there is the figure of the Person in Charge, who is the person appointed by the Controller to act as a communication channel between the Controller, the Operator, the data subjects and the National Data Protection Authority (ANPD). If the enterprises of Brazil don't follow this law,  they will have to pay 2% of your billing and have to risk closing. 
-        </p>
+        <p className="m-2.5 font-medium text-slate-900">The LGPD (Lei Geral de Proteção de Dados Pessoais, in Portuguese) is a law implanted in Brazil (like a GDPR, or General Data Protection Regulation in EUROPE) created in Jul 2018 with the goal of protecting Brazilians' data. Under the LGPD, the processing of personal data can be performed by two processing agents, the Controller and the Operator. In addition to them, there is the figure of the Person in Charge, who is the person appointed by the Controller to act as a communication channel between the Controller, the Operator, the data subjects and the National Data Protection Authority (ANPD). If the enterprises of Brazil don't follow this law,  they will have to pay 2% of your billing and have to risk closing. </p>
         <br/>    
         <img className="m-3" src="https://gtrigueiro.com.br/wp-content/uploads/2021/09/lgpd-vanzolini-1200x874-1-768x559.jpg" alt="LGPD Image"/>
         <br/>
-        
         <h1 className="text-4xl font-bold">Difference between GDPR and LGPD</h1>
-        
         <p className="m-2.5 font-medium text-slate-900">Besides the difference that GDPR only works in Europe, both have diversities when compared, as next: </p>
-        
         <table>
           <tbody className="border-solid border-black border-2">
             <tr>
@@ -79,7 +75,8 @@ function App() {
         </table>
         <img className="m-3" src="https://images.prismic.io/secure-privacy/7987972a-edbb-42d1-a9d9-191aaaed5c3b_lgpd-vs-gdpr-key-similarities-and-differences.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=45" alt="LGPD vs GDPR"/>
     </section>
-    </div>
+    <Footer/>
+    </>
   )
 };
 
