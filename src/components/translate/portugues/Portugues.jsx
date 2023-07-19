@@ -4,7 +4,7 @@ function Portugues(){
         <h1 className="text-4xl font-bold">A LGPD</h1>  
         <p className="m-2.5 font-medium text-slate-900">A LGPD (Lei Geral de Proteção de Dados Pessoais, em português) é uma lei implantada no Brasil (como um GDPR, ou Regulamento Geral de Proteção de Dados na EUROPA) criada em julho de 2018 com o objetivo de proteger os dados dos brasileiros. De acordo com a LGPD, o tratamento de dados pessoais pode ser realizado por dois agentes de tratamento, o Controlador e o Operador. Além deles, existe a figura do Encarregado, que é a pessoa designada pelo Controlador para atuar como canal de comunicação entre o Controlador, o Operador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). Se as empresas do Brasil não seguirem essa lei, terão que pagar 2% do seu faturamento e correrão o risco de fechar.</p>
         <br/>    
-        <img className="m-3 " src="https://gtrigueiro.com.br/wp-content/uploads/2021/09/lgpd-vanzolini-1200x874-1-768x559.jpg" alt="LGPD Image"/>
+        <img className="m-auto min-[1028px]:w-5/12 " src="https://gtrigueiro.com.br/wp-content/uploads/2021/09/lgpd-vanzolini-1200x874-1-768x559.jpg" alt="LGPD Image"/>
         <br/>
         <h1 className="text-4xl font-bold">Diferença entre GDPR e LGPD</h1>
         <p className="m-2.5 font-medium text-slate-900">Além da diferença de que o GDPR só funciona na Europa, ambos possuem diferenças quando comparados, conforme a seguir:</p>
@@ -66,7 +66,7 @@ function Portugues(){
             </tr>
             </tbody>
         </table>
-        <img className="m-3" src="https://images.prismic.io/secure-privacy/7987972a-edbb-42d1-a9d9-191aaaed5c3b_lgpd-vs-gdpr-key-similarities-and-differences.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=45" alt="LGPD vs GDPR"/>
+        <img className="m-auto min-[1028px]:w-5/12 " src="https://images.prismic.io/secure-privacy/7987972a-edbb-42d1-a9d9-191aaaed5c3b_lgpd-vs-gdpr-key-similarities-and-differences.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=45" alt="LGPD vs GDPR"/>
     </section>
     )
 }
