@@ -21,36 +21,36 @@ function Portugues(){
                 <td className="border-solid border-black border-2 px-2">
                     Meta; <br/>
                     Adequação; <br/>
-                    Need; <br/>
-                    Free acess; <br/>
-                    Data quality; <br/>
-                    Transparency; <br/>
-                    Security; <br/>
-                    Prevention; <br/>
-                    Non-discrimination; <br/>
-                    Accountability. <br/>
+                    Necessidade; <br/>
+                    Livre acesso; <br/>
+                    Qualidade dos dados; <br/>
+                    Transparência; <br/>
+                    Segurança; <br/>
+                    Prevêção; <br/>
+                    Não discriminação; <br/>
+                    Responsabilização. <br/>
                 </td>
                 <td className="border-solid border-black border-2 px-2">
-                    Legality; <br/>
-                    Loyalty; <br/>
-                    Transparency; <br/>
-                    Purpose limitation; <br/>
-                    Data minimization; <br/>
-                    Accuracy; <br/>
-                    Conservation limitation; <br/>
-                    Integrity and reliability; <br/>
-                    Responsibility.
+                    Licitude; <br/>
+                    Lealdade; <br/>
+                    Transparência; <br/>
+                    Limitação das finalidades; <br/>
+                    Minimização dos dados; <br/>
+                    Exatidão; <br/>
+                    Limitação da conservação; <br/>
+                    Integridade e confiabilidade; <br/>
+                    Responsabilidade.
                 </td>
             </tr>
             <tr>
-                <th className='p-1' colSpan="2">Relationship Between Data Controller and Data Operator</th>
+                <th className='p-1' colSpan="2">Relação Entre Controlador de Dados e Operador de Dados</th>
             </tr>
             <tr>
                 <td className="border-solid border-black border-2 px-2">
-                    The LGPD only requires that the Operator carry out the processing of data as directed by the controller.
+                A LGPD requer somente que o Operador execute o tratamento dos dados conforme orientação do controlador.
                 </td>
                 <td className="border-solid border-black border-2 px-2">
-                    GDPR establishes the requirement of a contract between Controller and Data Operator, which explains the processing of data.
+                GDPR estabelece a exigência de um contrato entre Controlador e Operador de Dados, que explicite o tratamento dos dados.
                 </td>
             </tr>
             <tr>
@@ -58,10 +58,10 @@ function Portugues(){
             </tr>
             <tr>
                 <td className="border-solid border-black border-2 px-2">
-                    The LGPD defines fines, sanctions and civil proceedings for controllers and operators, according to the type of event and severity.
+                A LGPD define multas, sanções e processos civis a controladores e operadores, de acordo com o tipo de evento e severidade.
                 </td>
                 <td className="border-solid border-black border-2 px-2">
-                    The GDPR defines fines, sanctions and civil proceedings for controllers and operators, according to the type of event and severity.
+                A GDPR define multas, sanções e processos civis a controladores e operadores, de acordo com o tipo de evento e severidade.
                 </td>
             </tr>
             </tbody>
