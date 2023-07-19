@@ -9,7 +9,7 @@ function Portugues(){
         <h1 className="text-4xl font-bold">Diferença entre GDPR e LGPD</h1>
         <p className="m-2.5 font-medium text-slate-900">Além da diferença de que o GDPR só funciona na Europa, ambos possuem diferenças quando comparados, conforme a seguir:</p>
         <table>
-          <tbody className="border-solid border-black border-2">
+          <tbody className="my-1 border-solid border-black border-2">
             <tr>
                 <th className="border-solid border-black border-2">LGPD</th>
                 <th className="border-solid border-black border-2">GDPR</th>
